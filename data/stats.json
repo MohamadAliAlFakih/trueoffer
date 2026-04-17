@@ -1,0 +1,253 @@
+{
+  "neighborhood_price_ranges": {
+    "Blmngtn": {
+      "median": 186000.0,
+      "mean": 192580.0,
+      "min": 159895.0,
+      "max": 264561.0,
+      "count": 14
+    },
+    "Blueste": {
+      "median": 124000.0,
+      "mean": 124000.0,
+      "min": 124000.0,
+      "max": 124000.0,
+      "count": 1
+    },
+    "BrDale": {
+      "median": 109000.0,
+      "mean": 104790.0,
+      "min": 85400.0,
+      "max": 125000.0,
+      "count": 10
+    },
+    "BrkSide": {
+      "median": 120800.0,
+      "mean": 124549.0,
+      "min": 39300.0,
+      "max": 223500.0,
+      "count": 40
+    },
+    "ClearCr": {
+      "median": 200000.0,
+      "mean": 217588.0,
+      "min": 143000.0,
+      "max": 328000.0,
+      "count": 17
+    },
+    "CollgCr": {
+      "median": 199450.0,
+      "mean": 199056.0,
+      "min": 110000.0,
+      "max": 383970.0,
+      "count": 94
+    },
+    "Crawfor": {
+      "median": 217250.0,
+      "mean": 212054.0,
+      "min": 90350.0,
+      "max": 392500.0,
+      "count": 34
+    },
+    "Edwards": {
+      "median": 119000.0,
+      "mean": 125754.0,
+      "min": 58500.0,
+      "max": 320000.0,
+      "count": 79
+    },
+    "Gilbert": {
+      "median": 183200.0,
+      "mean": 192694.0,
+      "min": 156932.0,
+      "max": 320000.0,
+      "count": 63
+    },
+    "IDOTRR": {
+      "median": 107250.0,
+      "mean": 103733.0,
+      "min": 34900.0,
+      "max": 169500.0,
+      "count": 24
+    },
+    "MeadowV": {
+      "median": 97000.0,
+      "mean": 109478.0,
+      "min": 80000.0,
+      "max": 151400.0,
+      "count": 9
+    },
+    "Mitchel": {
+      "median": 154750.0,
+      "mean": 156706.0,
+      "min": 84500.0,
+      "max": 240000.0,
+      "count": 38
+    },
+    "NAmes": {
+      "median": 142000.0,
+      "mean": 148275.0,
+      "min": 87500.0,
+      "max": 345000.0,
+      "count": 155
+    },
+    "NPkVill": {
+      "median": 143750.0,
+      "mean": 140250.0,
+      "min": 127500.0,
+      "max": 155000.0,
+      "count": 5
+    },
+    "NWAmes": {
+      "median": 183950.0,
+      "mean": 189929.0,
+      "min": 82500.0,
+      "max": 299800.0,
+      "count": 58
+    },
+    "NoRidge": {
+      "median": 275500.0,
+      "mean": 318540.0,
+      "min": 190000.0,
+      "max": 745000.0,
+      "count": 28
+    },
+    "NridgHt": {
+      "median": 295500.0,
+      "mean": 305401.0,
+      "min": 154000.0,
+      "max": 446261.0,
+      "count": 48
+    },
+    "OldTown": {
+      "median": 122500.0,
+      "mean": 130284.0,
+      "min": 37900.0,
+      "max": 475000.0,
+      "count": 83
+    },
+    "SWISU": {
+      "median": 135450.0,
+      "mean": 139490.0,
+      "min": 60000.0,
+      "max": 200000.0,
+      "count": 16
+    },
+    "Sawyer": {
+      "median": 135000.0,
+      "mean": 136093.0,
+      "min": 62383.0,
+      "max": 190000.0,
+      "count": 54
+    },
+    "SawyerW": {
+      "median": 179900.0,
+      "mean": 183238.0,
+      "min": 76000.0,
+      "max": 320000.0,
+      "count": 39
+    },
+    "Somerst": {
+      "median": 222000.0,
+      "mean": 221860.0,
+      "min": 146000.0,
+      "max": 340000.0,
+      "count": 57
+    },
+    "StoneBr": {
+      "median": 282000.0,
+      "mean": 306450.0,
+      "min": 170000.0,
+      "max": 538000.0,
+      "count": 22
+    },
+    "Timber": {
+      "median": 222250.0,
+      "mean": 232576.0,
+      "min": 167500.0,
+      "max": 378500.0,
+      "count": 26
+    },
+    "Veenker": {
+      "median": 231750.0,
+      "mean": 240188.0,
+      "min": 162500.0,
+      "max": 385000.0,
+      "count": 8
+    }
+  },
+  "feature_distributions": {
+    "OverallQual": {
+      "p25": 5.0,
+      "p50": 6.0,
+      "p75": 7.0
+    },
+    "GrLivArea": {
+      "p25": 1145.25,
+      "p50": 1465.0,
+      "p75": 1776.0
+    },
+    "GarageCars": {
+      "p25": 1.0,
+      "p50": 2.0,
+      "p75": 2.0
+    },
+    "TotalBsmtSF": {
+      "p25": 796.0,
+      "p50": 997.5,
+      "p75": 1299.75
+    },
+    "1stFlrSF": {
+      "p25": 884.0,
+      "p50": 1095.0,
+      "p75": 1391.0
+    },
+    "FullBath": {
+      "p25": 1.0,
+      "p50": 2.0,
+      "p75": 2.0
+    },
+    "YearBuilt": {
+      "p25": 1954.0,
+      "p50": 1972.0,
+      "p75": 2000.75
+    }
+  },
+  "price_feature_correlations": {
+    "OverallQual": 0.7854216268305393,
+    "GrLivArea": 0.6888413011771537,
+    "GarageCars": 0.6428477699525951,
+    "TotalBsmtSF": 0.5790924948601243,
+    "1stFlrSF": 0.5723223850052315,
+    "FullBath": 0.5516227136410824,
+    "YearBuilt": 0.5344789382861649,
+    "ExterQual": 0.6680791786952094,
+    "KitchenQual": 0.6434910321627516
+  },
+  "overall_price_stats": {
+    "min": 34899.99999999998,
+    "max": 744999.9999999997,
+    "median": 164944.99999999997,
+    "mean": 179206.75244618396,
+    "std": 74853.18281595717
+  },
+  "locked_features": [
+    "OverallQual",
+    "GrLivArea",
+    "GarageCars",
+    "TotalBsmtSF",
+    "1stFlrSF",
+    "FullBath",
+    "YearBuilt",
+    "ExterQual",
+    "KitchenQual",
+    "Neighborhood"
+  ],
+  "split_info": {
+    "train_size": 1022,
+    "val_size": 219,
+    "test_size": 219,
+    "random_state": 42,
+    "source": "train.csv only"
+  }
+}

@@ -1,0 +1,23 @@
+# Core
+groq==1.1.2
+joblib==1.5.3
+numpy==2.4.4
+pandas==3.0.2
+pydantic==2.13.1
+scikit-learn==1.8.0
+
+# Notebook / EDA
+matplotlib==3.10.8
+seaborn==0.13.2
+scipy==1.17.1
+jupyter==1.1.1
+jupyterlab==4.5.6
+ipykernel==7.2.0
+ipywidgets==8.1.8
+
+# Testing
+pytest==9.0.3
+
+# Web
+fastapi==0.136.0
+uvicorn[standard]==0.44.0

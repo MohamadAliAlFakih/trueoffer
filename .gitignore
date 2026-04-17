@@ -1,0 +1,10 @@
+.planning/
+
+.claude/
+
+.venv/
+
+__pycache__/
+*.pyc
+
+.env

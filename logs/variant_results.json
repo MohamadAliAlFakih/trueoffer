@@ -1,0 +1,56 @@
+[
+  {
+    "variant": "extraction-v1",
+    "query": "3-bedroom house in CollgCr neighborhood, built in 1995, good kitchen, 2-car garage, about 1800 sqft",
+    "success": true,
+    "extracted_count": 5,
+    "assumed_count": 5,
+    "raw_output": "{\n  \"OverallQual\": {\"value\": 7, \"flag\": \"ASSUMED\"},\n   \"GrLivArea\": {\"value\": 1800, \"flag\": \"EXTRACTED\"},\n   \"GarageCars\": {\"value\": 2, \"flag\": \"EXTRACTED\"},\n   \"TotalBsmtSF\": {\"value\": 0, \"flag\": \"ASSUMED\"},\n   \"1stFlrSF\": {\"value\": 1800, \"flag\": \"ASSUMED\"},\n   \"FullBath\": {\"value\": 2, \"flag\": \"ASSUMED\"},\n   \"YearBuilt\": {\"value\": 1995, \"flag\": \"EXTRACTED\"},\n   \"ExterQual\": {\"value\": \"Gd\", \"flag\": \"ASSUMED\"},\n   \"KitchenQual\": {\"value\": \"Gd\", \"flag\": \"EXTRACTED\"},\n   \"Neighborhood\": {\"value\": \"",
+    "error": ""
+  },
+  {
+    "variant": "extraction-v1",
+    "query": "small older home in OldTown, 1100 sqft, 1 bath, no garage, average quality everything",
+    "success": true,
+    "extracted_count": 8,
+    "assumed_count": 2,
+    "raw_output": "{\n  \"OverallQual\": {\"value\": 5, \"flag\": \"EXTRACTED\"},\n   \"GrLivArea\": {\"value\": 1100, \"flag\": \"EXTRACTED\"},\n   \"GarageCars\": {\"value\": 0, \"flag\": \"EXTRACTED\"},\n   \"TotalBsmtSF\": {\"value\": 0, \"flag\": \"ASSUMED\"},\n   \"1stFlrSF\": {\"value\": 1100, \"flag\": \"EXTRACTED\"},\n   \"FullBath\": {\"value\": 1, \"flag\": \"EXTRACTED\"},\n   \"YearBuilt\": {\"value\": 1950, \"flag\": \"ASSUMED\"},\n   \"ExterQual\": {\"value\": \"TA\", \"flag\": \"EXTRACTED\"},\n   \"KitchenQual\": {\"value\": \"TA\", \"flag\": \"EXTRACTED\"},\n   \"Neighborhood\": {\"val",
+    "error": ""
+  },
+  {
+    "variant": "extraction-v1",
+    "query": "brand new luxury house in NridgHt, excellent kitchen and exterior, 4 bedrooms, 3200 sqft living area",
+    "success": true,
+    "extracted_count": 6,
+    "assumed_count": 4,
+    "raw_output": "{\n  \"OverallQual\": {\"value\": 10, \"flag\": \"EXTRACTED\"},\n   \"GrLivArea\": {\"value\": 3200, \"flag\": \"EXTRACTED\"},\n   \"GarageCars\": {\"value\": 0, \"flag\": \"ASSUMED\"},\n   \"TotalBsmtSF\": {\"value\": 0, \"flag\": \"ASSUMED\"},\n   \"1stFlrSF\": {\"value\": 3200, \"flag\": \"ASSUMED\"},\n   \"FullBath\": {\"value\": 4, \"flag\": \"EXTRACTED\"},\n   \"YearBuilt\": {\"value\": 2024, \"flag\": \"ASSUMED\"},\n   \"ExterQual\": {\"value\": \"Ex\", \"flag\": \"EXTRACTED\"},\n   \"KitchenQual\": {\"value\": \"Ex\", \"flag\": \"EXTRACTED\"},\n   \"Neighborhood\": {\"value\"",
+    "error": ""
+  },
+  {
+    "variant": "extraction-v2",
+    "query": "3-bedroom house in CollgCr neighborhood, built in 1995, good kitchen, 2-car garage, about 1800 sqft",
+    "success": false,
+    "extracted_count": 0,
+    "assumed_count": 0,
+    "raw_output": "{\n  \"OverallQual\": 7,\n   \"GrLivArea\": 1800.0,\n   \"GarageCars\": 2,\n   \"TotalBsmtSF\": 0.0,\n   \"1stFlrSF\": 1800.0,\n   \"FullBath\": 2,\n   \"YearBuilt\": 1995,\n   \"ExterQual\": \"Gd\",\n   \"KitchenQual\": \"Gd\",\n   \"Neighborhood\": \"CollgCr\"\n}",
+    "error": "'int' object is not subscriptable"
+  },
+  {
+    "variant": "extraction-v2",
+    "query": "small older home in OldTown, 1100 sqft, 1 bath, no garage, average quality everything",
+    "success": false,
+    "extracted_count": 0,
+    "assumed_count": 0,
+    "raw_output": "{\n  \"OverallQual\": 5,\n   \"GrLivArea\": 1100.0,\n   \"GarageCars\": 0,\n   \"TotalBsmtSF\": 0,\n   \"1stFlrSF\": 1100.0,\n   \"FullBath\": 1,\n   \"YearBuilt\": 1940,\n   \"ExterQual\": \"Fa\",\n   \"KitchenQual\": \"Fa\",\n   \"Neighborhood\": \"OldTown\"\n}",
+    "error": "'int' object is not subscriptable"
+  },
+  {
+    "variant": "extraction-v2",
+    "query": "brand new luxury house in NridgHt, excellent kitchen and exterior, 4 bedrooms, 3200 sqft living area",
+    "success": false,
+    "extracted_count": 0,
+    "assumed_count": 0,
+    "raw_output": "{\n  \"OverallQual\": 10,\n   \"GrLivArea\": 3200.0,\n   \"GarageCars\": 2,\n   \"TotalBsmtSF\": 0.0,\n   \"1stFlrSF\": 3200.0,\n   \"FullBath\": 3,\n   \"YearBuilt\": 2024,\n   \"ExterQual\": \"Ex\",\n   \"KitchenQual\": \"Ex\",\n   \"Neighborhood\": \"NridgHt\"\n}",
+    "error": "'int' object is not subscriptable"
+  }
+]

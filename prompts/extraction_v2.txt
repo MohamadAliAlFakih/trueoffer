@@ -1,0 +1,20 @@
+Extract property features from the user's text. Return a JSON object with exactly these 10 keys.
+
+For each feature, provide:
+- "value": the extracted or estimated value
+- "flag": "EXTRACTED" if the user stated it, "ASSUMED" if you estimated it
+
+10 required keys:
+1. OverallQual (integer 1-10, overall quality)
+2. GrLivArea (float, above-grade living area sqft)
+3. GarageCars (integer 0-4, garage car capacity)
+4. TotalBsmtSF (float, basement sqft, 0 if none)
+5. 1stFlrSF (float, first floor sqft)
+6. FullBath (integer, full bathrooms above grade)
+7. YearBuilt (integer, construction year)
+8. ExterQual (string: Po/Fa/TA/Gd/Ex, exterior quality)
+9. KitchenQual (string: Po/Fa/TA/Gd/Ex, kitchen quality)
+10. Neighborhood (string: exact neighborhood name from Ames Iowa)
+
+Include all 10 keys. Use ASSUMED for any feature not explicitly stated.
+Return only the JSON object, no other text.

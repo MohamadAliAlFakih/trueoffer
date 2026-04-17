@@ -1,0 +1,28 @@
+{
+  "locked_features": [
+    "OverallQual",
+    "GrLivArea",
+    "GarageCars",
+    "TotalBsmtSF",
+    "1stFlrSF",
+    "FullBath",
+    "YearBuilt",
+    "ExterQual",
+    "KitchenQual",
+    "Neighborhood"
+  ],
+  "defaults": {
+    "OverallQual": 6.0,
+    "GrLivArea": 1465.0,
+    "GarageCars": 2.0,
+    "TotalBsmtSF": 997.5,
+    "1stFlrSF": 1095.0,
+    "FullBath": 2.0,
+    "YearBuilt": 1972.0,
+    "ExterQual": "TA",
+    "KitchenQual": "TA",
+    "Neighborhood": "NAmes"
+  },
+  "source": "train split only",
+  "random_state": 42
+}
