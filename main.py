@@ -2,6 +2,9 @@
 # FastAPI application — single POST /analyze endpoint
 # Implements D-01 through D-07 from .planning/phases/03-fastapi-endpoint/03-CONTEXT.md
 
+from dotenv import load_dotenv
+load_dotenv()
+
 from contextlib import asynccontextmanager
 from typing import Optional
 import json
