@@ -72,7 +72,7 @@ def _to_api_value(feat: str, display_val):
 def _call_api(message: str, assumed_overrides: dict | None = None) -> dict:
     try:
         resp = requests.post(
-            "http://localhost:8001/analyze",
+            "http://api:8000/analyze",
             json={"message": message, "assumed_overrides": assumed_overrides},
             timeout=30,
         )

@@ -1,0 +1,26 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir \
+    groq==1.1.2 \
+    joblib==1.5.3 \
+    numpy \
+    pandas \
+    pydantic==2.13.1 \
+    scikit-learn \
+    fastapi==0.136.0 \
+    "uvicorn[standard]==0.44.0" \
+    python-dotenv==1.2.2
+
+COPY app/ ./app/
+COPY prompts/ ./prompts/
+COPY model/ ./model/
+COPY data/stats.json ./data/stats.json
+COPY data/defaults.json ./data/defaults.json
+COPY main.py .
+
+EXPOSE 8000
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
